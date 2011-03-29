@@ -11,5 +11,5 @@ Example:
         popcorn : 'my-popcorn-script.js'  // The url of the next Popcorn Script to be loaded
       })
 
-Demo: http://code.bocoup.com/popcorn.js/chain-plugin-demo/popcorn.chain.html
+Demo: [http://code.bocoup.com/popcorn.js/chain-plugin-demo/popcorn.chain.html](http://code.bocoup.com/popcorn.js/chain-plugin-demo/popcorn.chain.html)
 
