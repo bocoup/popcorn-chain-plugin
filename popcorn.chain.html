@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <title>Popcorn Chain Plug-in Demo</title>
+  <script src="js/popcorn.js"></script>
+  <script src="js/popcorn.chain.js"></script>
+  <script src="popcorn-script1.js"></script>
+
+  <style>
+    video { width: 320px; }
+  </style>
+
+</head>
+<body>
+
+  <h1 id="qunit-header">Popcorn Chain Plug-in Demo</h1>
+
+  <p>Popcorn Chain Plug-in can be used to load and execute additional Popcorn
+  scripts and their accompanying videos, at time specified by the user.</p>
+
+  <a href="chain-plugin-demo.zip">Download: chain-plugin-demo.zip</a>
+
+  <div>
+    <video id="video" controls>
+      <source id="webm" src="webm/sintel.webm" type="video/webm" codecs="webm">
+      <p>Your user agent does not support the HTML5 Video element.</p>
+    </video>
+  </div>
+
+  <div id="subtitles"></div>
+
+</body>
+</html>
+
