@@ -53,6 +53,7 @@
       end: function( event, options ) {
         this.next.video.play();
         var parentNode = this.video.parentNode;
+        this.video.pause();
         parentNode.removeChild( this.video );
         this.next.video.setAttribute('id', this.video.getAttribute('id'));
         parentNode.appendChild( this.next.video );
