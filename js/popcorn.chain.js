@@ -54,6 +54,7 @@
         this.next.video.play();
         var parentNode = this.video.parentNode;
         this.video.pause();
+        this.video.src='';
         parentNode.removeChild( this.video );
         this.next.video.setAttribute('id', this.video.getAttribute('id'));
         parentNode.appendChild( this.next.video );
